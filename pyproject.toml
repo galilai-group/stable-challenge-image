@@ -1,0 +1,31 @@
+[project]
+name = "stable-challenge-image"
+version = "0.1.0"
+description = "Self-supervised image pretraining challenge with a CPU-only ONNX evaluation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "datasets>=3",
+  "numpy",
+  "pillow",
+  "onnx",
+  "onnxruntime",
+  "torch",
+  "torchvision",
+]
+
+[dependency-groups]
+baseline = ["stable-pretraining", "kornia"]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+default-groups = ["baseline", "dev"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = [
+  "ignore::DeprecationWarning",
+  "ignore::FutureWarning",
+]

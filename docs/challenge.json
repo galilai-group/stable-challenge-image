@@ -1,0 +1,13 @@
+{
+  "slug": "stable-challenge-image",
+  "title": "stable-challenge-image",
+  "description": "",
+  "metric": "score",
+  "direction": "maximize",
+  "evaluator_version": "eval-b50be02711dcd16c7eadeec5026eee1d",
+  "closes_at": null,
+  "anonymous": true,
+  "accepting_submissions": true,
+  "service_url": "https://script.google.com/macros/s/AKfycbz-LjlcVuaQ0fbjhPGhYtDi4XxTItsGMrmSXUkP4X59IkPv6WF-sJ-P3dHDJtJlBTb5/exec",
+  "submit_url": "https://script.google.com/macros/s/AKfycbz-LjlcVuaQ0fbjhPGhYtDi4XxTItsGMrmSXUkP4X59IkPv6WF-sJ-P3dHDJtJlBTb5/exec?challenge=stable-challenge-image"
+}
