@@ -88,6 +88,19 @@
     },
     {
       "rank": 7,
+      "participant": "0c9f17a25e6c67a1",
+      "participant_id": "0c9f17a25e6c67a1",
+      "groups": [],
+      "score": 0.7493,
+      "metrics": {
+        "score": 0.7493
+      },
+      "status": "succeeded",
+      "submission_id": "d222380f1359aefabee62ae5bf40afc0e8da176641f3651fe6c9abd0496f0251",
+      "submitted_at": "2026-11-26T21:54:48.475Z"
+    },
+    {
+      "rank": 8,
       "participant": "fdbf64f3741c2070",
       "participant_id": "fdbf64f3741c2070",
       "groups": [],
@@ -100,7 +113,7 @@
       "submitted_at": "2026-11-25T19:49:40.623Z"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "participant": "14a0d1db004396e4",
       "participant_id": "14a0d1db004396e4",
       "groups": [],
@@ -111,19 +124,6 @@
       "status": "succeeded",
       "submission_id": "36e87b090f4fded25e377d32863be5fdf613f9158541ec461a09b26c8ffb08d5",
       "submitted_at": "2026-11-24T22:03:44.287Z"
-    },
-    {
-      "rank": 9,
-      "participant": "02e99bce18e738c9",
-      "participant_id": "02e99bce18e738c9",
-      "groups": [],
-      "score": 0.7233,
-      "metrics": {
-        "score": 0.7233
-      },
-      "status": "succeeded",
-      "submission_id": "61a56aabceb86f72c9724196369a7f4caadf730e9d8db3819e5ae83411919009",
-      "submitted_at": "2026-11-26T02:10:08.929Z"
     },
     {
       "rank": 10,
@@ -410,20 +410,8 @@
       "status": "succeeded",
       "submission_id": "4d2e345eb0debe679325e2d67694e88cf9480d166b5ecccbb178d7ca9338bfc2",
       "submitted_at": "2026-10-07T01:59:56.059Z"
-    },
-    {
-      "rank": null,
-      "participant": "0c9f17a25e6c67a1",
-      "participant_id": "0c9f17a25e6c67a1",
-      "groups": [],
-      "score": null,
-      "metrics": {},
-      "status": "failed",
-      "submission_id": "d222380f1359aefabee62ae5bf40afc0e8da176641f3651fe6c9abd0496f0251",
-      "submitted_at": "2026-11-26T21:54:48.475Z",
-      "logs": "Evaluator did not return valid JSON. Organizers can inspect the private log for the traceback."
     }
   ],
-  "revision": 42,
-  "updated_at": "2026-11-27T03:03:13.480Z"
+  "revision": 43,
+  "updated_at": "2026-11-27T16:11:13.107Z"
 }
